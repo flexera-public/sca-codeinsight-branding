@@ -1,6 +1,18 @@
 /***************************** 
    CSS for Revenera Reports 
 *****************************/
+
+
+.report-title {
+    margin-top: 8px;
+    font-size: 26px;
+}
+
+.report-footer { 
+    margin-top: 8px;
+    font-size: 12px;
+}    
+
 hr.large {
   border: 10px solid #1ED65F;
   border-radius: 5px;}
@@ -16,6 +28,14 @@ hr.small {
 /***************************** 
     Table specific styling 
 *****************************/
+
+.table { 
+    border-radius: 5px; 
+    width: 50%;  
+    margin: 0px auto; 
+    float: none;
+}
+
 th {
     background-color: #323E48;
     color: white;
