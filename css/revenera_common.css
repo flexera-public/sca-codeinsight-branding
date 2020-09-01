@@ -48,6 +48,25 @@ td {
     font-weight: bold;
 } 
 
+.page-item.active .page-link {
+    color: #323E48 !important;
+    background-color: #1ED65F !important;
+    border-color: #323E48 !important; 
+}
+
+.page-link {
+    color: #323E48 !important;
+    background-color: #fff !important;
+    border: 1px solid #323E48 !important; 
+}
+
+.page-link:hover {
+    color: #1ED65F !important;
+    background-color: #323E48 !important;
+    border-color: #323E48 !important; 
+}
+
+
 /***************************** 
     Button specific styling 
 *****************************/
