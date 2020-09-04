@@ -66,6 +66,25 @@ td {
     border-color: #323E48 !important; 
 }
 
+/*****************************
+    Indicator dots and colors
+******************************/
+
+.dot { 
+    display: inline-block; 
+    border: 1px solid #626262; 
+    border-radius: 6px; 
+    width: 10px; height: 10px; 
+    vertical-align: middle;
+    margin-right: 8px; margin-top: -2px; 
+}
+
+.dot-green { background-color: #008000; }
+.dot-yellow { background-color: #FFFF00; }
+.dot-red { background-color: #FF0000; }
+.dot-blue { background-color: #00008B; }
+.dot-gray { background-color: lightgrey; }
+.dot-blank { background-color: #FFFFFF; }
 
 /***************************** 
     Button specific styling 
