@@ -89,6 +89,30 @@ td {
 /***************************** 
     Button specific styling 
 *****************************/
+
+.btn-revenera-green
+{
+    background-color: #1ED65F
+}
+
+.btn-revenera-green:hover 
+{ 
+    background-color: #323E48 
+}
+
+.btn-revenera-gray
+{
+    background-color: #323E48;
+    color: #FFFFFF;
+}
+
+.btn-revenera-gray:active:focus,
+.btn-revenera-gray:hover 
+{ 
+    background-color: #1ED65F;
+    border-color: #1ED65F 
+}
+
 .btn-vuln
 {
     font-size: 12px;
