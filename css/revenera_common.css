@@ -2,16 +2,40 @@
    CSS for Revenera Reports 
 *****************************/
 
-
-.report-title {
-    margin-top: 8px;
-    font-size: 26px;
+.header {
+    min-height: 58px;
+    background-color: #323E48;
+    border-bottom: 4px solid #1ED65F;
+    margin-bottom: 18px;
+    overflow: auto;
 }
 
-.report-footer { 
-    margin-top: 8px;
-    font-size: 12px;
-}    
+.logo {
+    float: left;
+    padding-left: 24px;
+    padding-top: 13px;
+    padding-right: 48px;
+    padding-bottom: 0;
+}
+
+.report-title {
+    float: right;
+    padding-top: 18px;
+    font-size: 22px;
+    color: #1ED65F;
+    text-transform: uppercase;
+    float: left;
+    padding-bottom: 16px;
+    padding-left: 24px;
+}
+
+.report-footer {
+    margin-top: 20px !important;
+    font-size: 13px;
+    background-color: #ebebeb;
+    padding: 18px;
+    height: 57px;
+}
 
 hr.large {
   border: 10px solid #1ED65F;
