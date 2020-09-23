@@ -19,7 +19,7 @@
 }
 
 .report-title {
-    float: right;
+    float: right !important;
     padding-top: 18px;
     font-size: 22px;
     color: #1ED65F;
@@ -27,6 +27,7 @@
     float: left;
     padding-bottom: 16px;
     padding-left: 24px;
+    padding-right: 24px;
 }
 
 .report-footer {
