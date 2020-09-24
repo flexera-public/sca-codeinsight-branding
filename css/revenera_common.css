@@ -147,6 +147,7 @@ td {
     width: 40px !important;
     text-align: center !important;
     padding: 0;
+    cursor: default !important;
 }
 
 .btn-menu
@@ -172,6 +173,7 @@ td {
 .btn-high
 {
     background-color: #C00000;
+    color:#FFF !important;
 }
 
 .btn-medium
