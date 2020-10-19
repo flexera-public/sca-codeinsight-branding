@@ -254,3 +254,10 @@ td {
 {
      background-color: #1ED65F; 
 }
+
+/*  Remove the folder icon from the jstree for
+    project hierarchy view */
+.jstree li > a > .jstree-icon 
+{  
+    display:none !important; 
+} 
