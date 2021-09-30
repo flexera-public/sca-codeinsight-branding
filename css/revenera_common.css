@@ -125,6 +125,14 @@ td {
 .dot-gray { background-color: lightgrey; }
 .dot-blank { background-color: #FFFFFF; }
 
+.dot-copyright { background-color: #0099FF; }
+.dot-license { background-color: #33CC33; }
+.dot-emailURL { background-color: #FF02F9; }
+.dot-searchTerm { background-color: #02FFFF; }
+.dot-exactMatch { background-color: #FF0000; }
+.dot-sourceMatch { background-color: #FFFF00; }
+
+
 /***************************** 
     Button specific styling 
 *****************************/
