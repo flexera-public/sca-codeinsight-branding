@@ -60,3 +60,33 @@ hierarchyCellFormatProperties["bold"] = True
 hierarchyCellFormatProperties["align"] = "left"
 hierarchyCellFormatProperties["text_wrap"] = False
 hierarchyCellFormatProperties["border"] = False
+
+# Formatting for Vulnerabilities
+criticalVulnerabilityCellFormat = standardCellFormatProperties.copy()
+criticalVulnerabilityCellFormat["font_color"] = white
+criticalVulnerabilityCellFormat["bg_color"] = criticalVulnColor
+
+highVulnerabilityCellFormat = standardCellFormatProperties.copy()
+highVulnerabilityCellFormat["font_color"] = white
+highVulnerabilityCellFormat["bg_color"] = highVulnColor
+
+mediumVulnerabilityCellFormat = standardCellFormatProperties.copy()
+mediumVulnerabilityCellFormat["bg_color"] = mediumVulnColor
+
+lowVulnerabilityCellFormat = standardCellFormatProperties.copy()
+lowVulnerabilityCellFormat["bg_color"] = lowVulnColor
+
+unknownVulnerabilityCellFormat = standardCellFormatProperties.copy()
+unknownVulnerabilityCellFormat["bg_color"] = noneVulnColor
+
+
+approvedCellFormat = standardCellFormatProperties.copy()
+approvedCellFormat["font_color"] = approvedColor
+
+rejectedCellFormat = standardCellFormatProperties.copy()
+rejectedCellFormat["font_color"] = rejectedColor
+
+draftCellFormat = standardCellFormatProperties.copy()
+
+complianceCellFormat = standardCellFormatProperties.copy()
+complianceCellFormat["font_color"] = rejectedColor
