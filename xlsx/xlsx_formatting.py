@@ -33,7 +33,7 @@ standardCellFormatProperties["font_color"] = black
 standardCellFormatProperties["bg_color"] = white
 standardCellFormatProperties["text_wrap"] = True
 standardCellFormatProperties["valign"] = "vcenter"
-standardCellFormatProperties["align"] = "center"
+standardCellFormatProperties["align"] = "left"
 standardCellFormatProperties["border"] = True
 
 # Cells that are bold text
@@ -52,12 +52,12 @@ tableHeaderFormatProperties["bold"] = True
 tableHeaderFormatProperties["font_color"] = white
 tableHeaderFormatProperties["bg_color"] = reveneraGray
 tableHeaderFormatProperties["text_wrap"] = True
+tableHeaderFormatProperties["align"] = "center"
 
 # Formatting for display project hierarchy
 hierarchyCellFormatProperties = standardCellFormatProperties.copy()
 hierarchyCellFormatProperties["font_size"] = "12"
 hierarchyCellFormatProperties["bold"] = True
-hierarchyCellFormatProperties["align"] = "left"
 hierarchyCellFormatProperties["text_wrap"] = False
 hierarchyCellFormatProperties["border"] = False
 
@@ -65,19 +65,24 @@ hierarchyCellFormatProperties["border"] = False
 criticalVulnerabilityCellFormat = standardCellFormatProperties.copy()
 criticalVulnerabilityCellFormat["font_color"] = white
 criticalVulnerabilityCellFormat["bg_color"] = criticalVulnColor
+criticalVulnerabilityCellFormat["align"] = "center"
 
 highVulnerabilityCellFormat = standardCellFormatProperties.copy()
 highVulnerabilityCellFormat["font_color"] = white
 highVulnerabilityCellFormat["bg_color"] = highVulnColor
+highVulnerabilityCellFormat["align"] = "center"
 
 mediumVulnerabilityCellFormat = standardCellFormatProperties.copy()
 mediumVulnerabilityCellFormat["bg_color"] = mediumVulnColor
+mediumVulnerabilityCellFormat["align"] = "center"
 
 lowVulnerabilityCellFormat = standardCellFormatProperties.copy()
 lowVulnerabilityCellFormat["bg_color"] = lowVulnColor
+lowVulnerabilityCellFormat["align"] = "center"
 
 unknownVulnerabilityCellFormat = standardCellFormatProperties.copy()
 unknownVulnerabilityCellFormat["bg_color"] = noneVulnColor
+unknownVulnerabilityCellFormat["align"] = "center"
 
 
 approvedCellFormat = standardCellFormatProperties.copy()
