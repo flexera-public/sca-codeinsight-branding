@@ -61,6 +61,12 @@ hierarchyCellFormatProperties["bold"] = True
 hierarchyCellFormatProperties["text_wrap"] = False
 hierarchyCellFormatProperties["border"] = False
 
+approvedHierarchyCellFormatProperties = hierarchyCellFormatProperties.copy()
+approvedHierarchyCellFormatProperties["font_color"] = approvedColor
+
+rejectedHierarchyCellFormatProperties = hierarchyCellFormatProperties.copy()
+rejectedHierarchyCellFormatProperties["font_color"] = rejectedColor
+
 # Formatting for Vulnerabilities
 criticalVulnerabilityCellFormat = standardCellFormatProperties.copy()
 criticalVulnerabilityCellFormat["font_color"] = white
